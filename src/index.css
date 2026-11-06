@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* O modo escuro é ativado pela classe "dark" no <html> (e não pelo sistema) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --cor-grade: rgb(0 0 0 / 0.05);
+}
+
+.dark {
+  color-scheme: dark;
+  --cor-grade: rgb(255 255 255 / 0.035);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Entrada em sequência: use style={{ '--atraso': '120ms' }} */
+@keyframes entrada-suave {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.entrada {
+  opacity: 0;
+  animation: entrada-suave 0.6s ease-out forwards;
+  animation-delay: var(--atraso, 0ms);
+}
+
+/* Grade sutil que se dissolve nas bordas (a cor muda com o tema) */
+.fundo-grade {
+  background-image:
+    linear-gradient(to right, var(--cor-grade) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--cor-grade) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 65% at 50% 0%, black 35%, transparent 100%);
+}
+
+/* Respeita quem prefere menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  .entrada { animation: none; opacity: 1; }
+  html { scroll-behavior: auto; }
+}
