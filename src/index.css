@@ -62,3 +62,20 @@ html {
   .revelar { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* Troca de tema com revelação em elipse (a animação está em lib/useTema.ts) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) { z-index: 1; }
+::view-transition-new(root) { z-index: 2; }
+
+/* Durante a troca, nenhuma cor pode "deslizar" */
+.trocando-tema *,
+.trocando-tema *::before,
+.trocando-tema *::after {
+  transition: none !important;
+}

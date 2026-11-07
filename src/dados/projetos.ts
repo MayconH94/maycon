@@ -11,7 +11,7 @@ export interface Projeto {
 
 export const projetos: Projeto[] = [
   {
-    titulo: 'Página de Agendamento para Psicanálise',
+    titulo: 'Página de Agendamento para Psicanálistas',
     categoria: 'Landing Page de Alta Conversão',
     descricao:
       'Página pensada para transformar visitas em consultas: apresenta o profissional com acolhimento e leva o paciente direto ao agendamento pelo WhatsApp, em qualquer celular.',

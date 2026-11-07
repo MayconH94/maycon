@@ -9,7 +9,7 @@ export function BotaoTema() {
   return (
     <button
       type="button"
-      onClick={alternarTema}
+      onClick={(evento) => alternarTema(evento.currentTarget)}
       aria-label={rotulo}
       title={rotulo}
       className="flex h-9 w-9 items-center justify-center rounded-md border border-zinc-200 text-zinc-600 transition hover:bg-zinc-100 hover:text-zinc-900 active:scale-95 dark:border-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-white"
