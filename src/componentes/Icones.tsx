@@ -53,3 +53,11 @@ export function IconeLua(props: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
+
+export function IconeSetaDiagonal(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M7 17L17 7M8 7h9v9" />
+    </svg>
+  )
+}
