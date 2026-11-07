@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Backup local (não precisa ir para o GitHub)
+_backup_antes_do_visual/
