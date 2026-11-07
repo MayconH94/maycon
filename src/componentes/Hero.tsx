@@ -1,11 +1,12 @@
 import type { CSSProperties } from 'react'
 import { linkWhatsapp } from '../lib/contato'
-import { IconeCheck, IconeMensagem, IconeSetaBaixo } from './Icones'
+import { IconeCheck, IconeWhatsapp, IconeSetaBaixo } from './Icones'
 
 const selosDeConfianca = [
-  'Design 100% Adaptável para Celulares',
-  'Otimizado para o Google (SEO)',
-  'Código Rápido e Seguro',
+  'Funciona em qualquer celular',
+  'Otimizado para o Google',
+  'Atendimento direto com o desenvolvedor',
+  'Orçamento sem compromisso',
 ]
 
 // Define o atraso da animação de entrada de cada bloco
@@ -31,9 +32,9 @@ export function Hero() {
         className="entrada max-w-4xl text-balance text-4xl font-bold leading-[1.08] tracking-[-0.035em] text-zinc-900 sm:text-6xl lg:text-7xl dark:text-white"
         style={atraso(100)}
       >
-        Multiplique seus lucros com uma{' '}
+        Tecnologia feita para o seu negócio{' '}
         <span className="bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-500 bg-clip-text text-transparent dark:from-white dark:via-zinc-300 dark:to-zinc-500">
-          máquina de vendas digital.
+          crescer com mais organização e vendas.
         </span>
       </h1>
 
@@ -42,7 +43,7 @@ export function Hero() {
         className="entrada mt-7 max-w-2xl text-pretty text-base leading-relaxed text-zinc-600 sm:text-lg dark:text-zinc-400"
         style={atraso(200)}
       >
-        Desenvolvo <strong className="font-medium text-zinc-900 dark:text-zinc-200">Landding Pages</strong> e{' '}
+        Desenvolvo <strong className="font-medium text-zinc-900 dark:text-zinc-200">Landing Pages</strong> e{' '}
         <strong className="font-medium text-zinc-900 dark:text-zinc-200">sistemas sob medida</strong> para alavancar
         os seus <strong className="font-medium text-zinc-900 dark:text-zinc-200">negócios</strong> e automatizar sua{' '}
         <strong className="font-medium text-zinc-900 dark:text-zinc-200">empresa</strong>.
@@ -56,7 +57,7 @@ export function Hero() {
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-zinc-700 active:scale-[0.98] dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
         >
-          <IconeMensagem />
+          <IconeWhatsapp />
           Falar no WhatsApp
         </a>
         <a
@@ -75,7 +76,7 @@ export function Hero() {
       >
         {selosDeConfianca.map((texto) => (
           <li key={texto} className="inline-flex items-center gap-2 text-xs text-zinc-500 sm:text-sm dark:text-zinc-400">
-            <IconeCheck width={14} height={14} className="text-zinc-400 dark:text-zinc-500" />
+            <IconeCheck width={16} height={16} strokeWidth={2.5} className="text-emerald-600 dark:text-emerald-400" />
             {texto}
           </li>
         ))}

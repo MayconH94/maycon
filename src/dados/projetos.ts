@@ -14,7 +14,7 @@ export const projetos: Projeto[] = [
     titulo: 'Página de Agendamento para Psicanálise',
     categoria: 'Landing Page de Alta Conversão',
     descricao:
-      'Estrutura focada em acolhimento e conversão de pacientes particulares diretamente para agendamento no WhatsApp. 100% otimizada para celular.',
+      'Página pensada para transformar visitas em consultas: apresenta o profissional com acolhimento e leva o paciente direto ao agendamento pelo WhatsApp, em qualquer celular.',
     beneficios: ['Agendamento pelo WhatsApp', '100% no celular', 'Otimizada para o Google'],
     imagem: '/projetos/psicanalise.png',
     linkDemo: 'https://jackssander-psi.vercel.app/',
@@ -23,17 +23,17 @@ export const projetos: Projeto[] = [
     titulo: 'FinFlow — Gestão Financeira Inteligente',
     categoria: 'Web Application / Dashboard',
     descricao:
-      'Painel intuitivo de controle financeiro com gráficos dinâmicos, relatórios de fluxo de caixa e gestão de despesas em tempo real.',
+      'Painel de controle financeiro que reúne despesas e fluxo de caixa em um só lugar, com gráficos atualizados em tempo real para você decidir com base em dados, e não em planilhas soltas.',
     beneficios: ['Gráficos em tempo real', 'Fluxo de caixa', 'Controle de despesas'],
     imagem: '/projetos/finflow.png',
     linkDemo: 'https://financas-delta-seven.vercel.app/',
   },
   {
-    titulo: 'Zentask — Controle de tarefas e anotações pessoais',
-    categoria: 'Inteligência Artificial & SaaS',
+    titulo: 'ZenTask — Controle de Tarefas e Anotações',
+    categoria: 'Aplicativo Web / Produtividade',
     descricao:
-      'Aplicação para controle de tarefas, com bloco de notas rapido .',
-    beneficios: ['Foco com pomodoro integrado', 'Tarefas organizadas por dia', 'Estatíscias da sua rotina'],
+      'Aplicativo para organizar o dia em um só lugar: tarefas por prioridade, cronômetro Pomodoro para manter o foco, bloco de notas rápido e estatísticas para acompanhar a sua evolução. Projeto próprio, desenvolvido do zero.',
+    beneficios: ['Foco com Pomodoro integrado', 'Tarefas organizadas por dia', 'Estatísticas da sua rotina'],
     imagem: '/projetos/Zentask.png',
     linkDemo: 'https://tasklist-two-tau.vercel.app/',
   },

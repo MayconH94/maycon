@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section className="mx-auto flex max-w-5xl flex-col items-center px-6 pb-16 pt-20 text-center">
       {/* Etiqueta de disponibilidade */}
-      <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1.5 text-xs font-semibold text-emerald-400">
+      <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1.5 text-xs font-bold text-emerald-400">
         <span className="h-2 w-2 animate-ping rounded-full bg-emerald-400" />
         Disponível para novos projetos freelance
       </div>
@@ -43,7 +43,7 @@ export function Hero() {
         </a>
         <a
           href="#projetos"
-          className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/60 px-6 py-3.5 text-sm font-semibold text-slate-200 transition-all hover:bg-slate-800"
+          className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900/60 px-6 py-3.5 text-sm font-bold text-slate-200 transition-all hover:bg-slate-800"
         >
           Conhecer Projetos Realizados ↓
         </a>

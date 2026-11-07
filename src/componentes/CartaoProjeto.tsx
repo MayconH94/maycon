@@ -24,7 +24,9 @@ export function CartaoProjeto({ projeto }: { projeto: Projeto }) {
                 key={beneficio}
                 className="inline-flex items-center gap-1 rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 text-[11px] font-medium text-zinc-600 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400"
               >
+                <span className=''>
                 <IconeCheck width={11} height={11} strokeWidth={2.5} className="text-emerald-600 dark:text-emerald-400" />
+                </span>
                 {beneficio}
               </li>
             ))}

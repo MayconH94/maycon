@@ -1,6 +1,8 @@
 import { Cabecalho } from './componentes/Cabecalho'
 import { Hero } from './componentes/Hero'
 import { Projetos } from './componentes/Projetos'
+import { BannerFinal } from './componentes/BannerFinal'
+import { Rodape } from './componentes/Rodape'
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
       <Cabecalho />
       <Hero />
       <Projetos />
+      <BannerFinal />
+      <Rodape />
     </div>
   )
 }
