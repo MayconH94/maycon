@@ -156,6 +156,6 @@ Fale comigo pelo botão de WhatsApp do site ou me encontre aqui no GitHub: [@May
 
 <div align="center">
 
-© 2026 Maycon Herbert. Todos os direitos reservados.
+© 2026 Maycon Magalhães. Todos os direitos reservados.
 
 </div>

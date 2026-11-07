@@ -10,7 +10,7 @@ export function Rodape() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-5 px-6 py-8 sm:flex-row">
         <div className="flex items-center gap-3">
           <Logo />
-          <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400">© {ano} Maycon Herbert. Todos os direitos reservados.</p>
+          <p className="text-sm font-medium text-zinc-600 dark:text-zinc-400">© {ano} Maycon Magalhães. Todos os direitos reservados.</p>
         </div>
 
         <a
