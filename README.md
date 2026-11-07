@@ -9,9 +9,7 @@
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-<!-- Quando publicar na Vercel, descomente e troque o endereço:
-[**Ver site online →**](https://SEU-SITE.vercel.app)
--->
+[**Ver site online →**](https://maycon-magalhaes.vercel.app)
 
 <br />
 
